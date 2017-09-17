@@ -19,6 +19,8 @@
     <!--     Fonts and icons     -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Grand+Hotel|Open+Sans:400,300' rel='stylesheet' type='text/css'>
+  <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+
     <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
 </head>
 
@@ -59,12 +61,12 @@
                 <div class="col-md-8 col-md-offset-2">
 
 										<p>
-											   Currently, to monitor data from ocean probes and sensors out in the deep sea requires acess to an expensive satelite transmission network such as Immersat. Along with having very slow transmission speeds, the amount of data collected is very low compared to the outrageous prices that using satalite internet costs.
+											   Currently, to monitor data from ocean probes and sensors out in the deep sea requires access to an expensive satellite transmission network such as Immersat. Along with having very slow transmission speeds, the amount of data collected is very low compared to the outrageous prices that using satellite internet costs.
                     <p>
-                         'Buoy Mesh Hack' is a helpful System built for retrieving data from the ocean using sensors, transmitters, recivers, and buoys. Each buoy transmitts data through the air to the surrounding bouies, creating a mesh network of data that eventually leads to a master tower situated on the mainland.
+                         'Buoy Mesh Hack' is a helpful System built for retrieving data from the ocean using sensors, transmitters, receivers, and buoys. Each buoy transmits data through the air to the surrounding buoys, creating a mesh network of data that eventually leads to a master tower situated on the mainland.
                     </p>
                     <p>
-                      We are excited to present to you, 'Buoy Mesh Hack'. We hope this will enable researchers to be able to recieve various data from the vast ocean as well as check for patterns throughout time at an affordable price.
+                      We are excited to present to you, 'Buoy Mesh Hack'. We hope this will enable researchers to be able to receive various data from the vast ocean as well as check for patterns throughout time at an affordable price.
                     </p>
                 </div>
 
@@ -94,79 +96,85 @@
                 <h2 class="text-center">The Idea</h2>
                 <legend></legend>
                 <div class="col-md-8 col-md-offset-2">
-                    <p> Mesh networking is an easy way to extend the range of a particuar signal. Becuase sensors that are far away from land cannot recive LTE signal, Mesh Networking is one of the only cost effective and scalable ways to communicate data over long distances.
-                </div>
+                    <p> Mesh Networking is an easy way to extend the range of a particular signal. Because sensors that are far away from land cannot receive LTE signal, Mesh Networking is one of the only cost effective and scalable ways to communicate data over long distances.</p>
+										<br>
+										<p> The Buoy Mesh Network Hack works by using nodes to transmit data and pictures amongst devices themselves. This data can then be relayed back to a tower located on the mainland.</p>
+										<br>
+										<img align="center" height="400px" src="assets/img/Mesh-Exp.png"></img>
+										<br>
+										<br>
+										<p>To keep costs low, we made the project parts easily source able. A single buoy can be build for around or under $75! This is much cheaper than commercial solutions and using using expensive and slow satellite networks such as Immersat.</p>
+								</div>
             </div>
 <!--         end row -->
 
 <!--         restyled components row -->
             <div class="row tim-row">
-                <h2 class="text-center">Restyled Components</h2>
+                <h2 class="text-center">Components</h2>
                 <legend></legend>
                 <div class="col-md-8 col-md-offset-2">
-                    <
-                    Here is the list of Bootstrap 3 components that we restyled in 'Get Shit Done' kit:
+                  Our project uses easily and cheaply source able parts to make collecting data from the sea easier. Here are the parts that you will need to build the Buoy Mesh Hack:
                         <ul>
-                            <li> Buttons </li>
-                            <li> Inputs</li>
-                            <li> Select</li>
-                            <li> Textarea</li>
-                            <li> Menu </li>
-                            <li> Dropdown</li>
-                            <li> Progress Bars</li>
-                            <li> Navigation Menu</li>
-                            <li> Pagination</li>
-                            <li> Labels</li>
-                            <li> Badges</li>
-                            <li> Notifications</li>
-                            <li> Typography</li>
-                            <li> Images</li>
-                            <li> Tables</li>
-                            <li> Tooltips</li>
-                            <li> Popovers</li>
-                            <li> Modal </li>
-                            <li> Collapse</li>
-                            <li> Carousel</li>
+                            <li> Raspberry Pi </li>
+                            <li> Waterproof Tupperware Container</li>
+                            <li> HD Webcam</li>
+                            <li> 6V 2W Solar Pannel</li>
+                            <li> 10,000Mah Battery Bank </li>
+                            <li> Buoy</li>
+                            <li> RFM69HCW Radio Tx/Rx</li>
+                            <li> Your Desired Sensors</li>
+                            <li> Hookup Wire to Connect Everything Together</li>
+                            <li> USB Male to Contacts Plug</li>
+                            <li> Micro USB cable</li>
+                            <li> Micro USB to USB OTG Cable</li>
+														<br>
+														<p> You should be able to build this project for close to $75 or under per each Buoy. When you compare these to a commercial solution, this Buoy Mesh Network is much more value.</p>
                         </ul>
+												<h5> Setting up the hardware for this project is pretty easy, simply just connect each part depending on your specific part's documentation. This design is highly expandable and self explanatory for the most part.</h5>
                     </p>
                 </div>
             </div>
 <!--         end row -->
 
             <div class="row tim-row">
-                <h2 class="text-center">New Components</h2>
+                <h2 class="text-center">The Code</h2>
                 <legend></legend>
                 <div class="col-md-8 col-md-offset-2">
+
                     <p>
-                    Besides giving the existing Bootstrap elements a new look, we added new ones, so that the interface and consistent and homogenous.
+                        For more details regarding the code and library, go to our <a href="https://github.com/srivishnupiratla/Buoy-Mesh-Hack-Code">Github Project Page</a>.
                     </p>
-                    <p>
-                    Going through them, we added:
-                    <ul>
-                        <li> Morphing Buttons </li>
-                        <li> Social Buttons </li>
-                        <li> Tags</li>
-                        <li> Checkboxes</li>
-                        <li> Radio Buttons</li>
-                        <li> Sliders</li>
-                        <li> Switches</li>
-                        <li> Search Forms</li>
-                        <li> Subscription Areas</li>
-                        <li> Sharing Areas</li>
-                        <li> Footers</li>
-                        <li> Description Areas</li>
-                        <li> Info Areas</li>
-                        <li> Comments Areas </li>
-                        <li> Cards</li>
-                        <li> Video Player</li>
-                        <li> Maps</li>
-                        <li> Datepicker</li>
-                        <li> Charts</li>
-                    </ul>
-                    </p>
-                    <p>
-                        For more details regarding the components, go to our <a href="components.html">components page</a>.
-                    </p>
+										<br>
+										<p> Our Project is based off of the <a href="https://git.io/v5FId">RFM69 Python Library</a> </p>
+										<br>
+										<p> To get started first you have to clone a few Github repositories.</p>
+										<br>
+										<p>Start off by cloning the Spidev repo and installing it</p>
+										<pre class="prettyprint">Sudo git clone https://github.com/Gadgetoid/py-spidev</pre>
+										<pre class="prettyprint">cd py-spidev</pre>
+										<pre class="prettyprint">sudo make install</pre>
+										<br>
+										<p>Next proced to clone the Buoy Mesh Hack Repo</p>
+										<pre class="prettyprint">Sudo git clone https://github.com/srivishnupiratla/Buoy-Mesh-Hack-Code</pre>
+										<pre class="prettyprint">cd Buoy-Mesh-Hack-Code</pre>
+										<br>
+										<h6>Now fire up the python program on each of the corresponding Buoys:</h6>
+										<p> For the Land Reciver:</p>
+										<pre class="prettyprint">python Endpointrecive.py</pre>
+										<p> For the End Buoy:</p>
+										<pre class="prettyprint">python EndBuoy.py</pre>
+										<p> For the Normal Nodes:</p>
+										<pre class="prettyprint">python Node-Script.py</pre>
+										<br>
+										<h2> Finishing it up:</h2>
+										<p> After finishing these steps, place your buoys in your desired Mesh Network Orientation. For best signal strength, solder a solid core wire on the antenna pad on the RFM69 chip. To make your device waterproof, simply place your device inside the Tupperware container. For best results, collect data from the Land Node every week. You can modify the code to do whatever you want. It is written in python so it is easy to understand and write.</p>
+
+
+
+
+
+
+
                 </div>
             </div>
         <!-- end row -->
@@ -176,39 +184,12 @@
 </div>
 <footer class="footer footer-transparent">
     <div class="container">
-        <nav class="pull-left">
-            <ul>
-                <li>
-                    <a href="http://www.creative-tim.com/product/get-shit-done-pro">
-                        Get Shit Done Pro
-                    </a>
-                </li>
-                <li>
-                    <a href="http://www.creative-tim.com">
-                        Creative Tim
-                    </a>
-                </li>
-                <li>
-                    <a href="http://blog.creative-tim.com">
-                       Blog
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <div class="social-area pull-right">
-            <a class="btn btn-social btn-twitter btn-simple" href="https://twitter.com/CreativeTim">
-                <i class="fa fa-twitter"></i>
-            </a>
-            <a class="btn btn-social btn-facebook btn-simple" href="https://www.facebook.com/CreativeTim">
-                <i class="fa fa-facebook-square"></i>
-            </a>
-            <a class="btn btn-social btn-google btn-simple" href="https://plus.google.com/+CreativetimPage">
-                <i class="fa fa-google-plus"></i>
-            </a>
-        </div>
+
+
         <div class="copyright">
-            &copy; 2016 Creative Tim, made with love
+            &copy; 2017 Team SAS, Buoy Mesh Network Hack
         </div>
+
     </div>
 </footer>
 
